@@ -1,0 +1,127 @@
+/* Center an Image in a Div Horizontally with Text-align - will center img horizontally */
+.container1 {
+    width: 400px;
+    height: 400px;
+    background-color: #64649e;
+    text-align: center;
+}
+
+.container1 img {
+    width: 200px;
+}
+
+
+/* with Margin-auto */
+.container2 {
+    width: 400px;
+    height: 400px;
+    background-color: #2c2cb6;
+}
+
+.container2 img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+
+/* with the Position and Transform Properties */
+.container3 {
+    width: 400px;
+    height: 400px;
+    background-color: #ac3158;
+    position: relative;
+}
+
+.container3 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+/* with Display-Flex - horizontally */
+.container4 {
+    width: 400px;
+    height: 400px;
+    background-color: #64649e;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Center an Image in a Div Vertically with Display-Flex */
+.container5 {
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.container5 img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Center an Image in a Div Vertically with the Position and Transform Properties */
+.container6 {
+    width: 400px;
+    height: 400px;
+    background-color: #e5e5f6;
+    position: relative;
+}
+
+.container6 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+/* Center an Image in a Div Horizontally and Vertically with Display-Flex */
+.container7 {
+    width: 400px;
+    height: 400px;
+    background-color: #cf4fe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7 img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Center an Image in a Div Horizontally and Vertically with the Position and Transform Properties */
+.container8 {
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    position: relative;
+}
+
+.container8 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* translate(x,y) */
+}
